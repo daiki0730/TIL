@@ -9,7 +9,7 @@ foreach が使えるのは配列とオブジェクトだけであり、
   各反復において現在の要素の値が $valueに代入され、内部配列ポインタが一つ前に 進められます。 
   (よって、次の反復では次の要素を見ることになります。) <br>
   
-  - foreach (array_expression as $key => $value)
+  - foreach (array_expression as $key => $value)  
   2番目の形式は、さらに各反復で現在の要素のキーを変数 $keyに代入します。 
   
 ```
